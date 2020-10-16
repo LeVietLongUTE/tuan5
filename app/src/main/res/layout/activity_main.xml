@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/hinhnen7"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="15dp">
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:textSize="40dp"
+        android:textColor="#1531D1"/>
+    <TextView
+        android:id="@+id/please"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/welcome"
+        android:text="please login or sign up "
+        android:textSize="25dp"
+        android:textColor="#DAA520"/>
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@+id/please"
+        android:src="@drawable/img05"/>
+    <TextView
+        android:layout_below="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter via aaaaaa"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textColor="#CD5C5C"/>
+</RelativeLayout>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_gravity="center">
+    <ImageView
+        android:layout_weight="1"
+        android:id="@+id/img1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/iconyoutube"
+        />
+
+    <ImageView
+        android:layout_weight="1"
+        android:layout_toRightOf="@+id/img1"
+        android:layout_width="100dp"
+        android:src="@drawable/skype"
+        android:layout_height="100dp"/>
+</LinearLayout>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Le Viet Long"
+    android:textSize="30dp"
+    android:gravity="center"
+    android:textColor="#FF1493"></TextView>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/edit"
+        android:text="Sign Up"
+        android:id="@+id/buttom_singup"
+        android:textColor="#F9F400"
+        android:textSize="30dp"
+        android:textStyle="bold"></Button>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="You alreadly have an account?"
+            android:textSize="20dp"
+            android:layout_marginLeft="25dp"
+            android:textColor="#ffffffff"></TextView>
+        <TextView
+            android:id="@+id/login1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+            android:textColor="#F3C009"></TextView>
+    </LinearLayout>
+
+</LinearLayout>
